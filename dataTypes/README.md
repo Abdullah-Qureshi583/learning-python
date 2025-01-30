@@ -158,5 +158,4 @@ These are the some basic data structures
 
 ---
 
-```
 
