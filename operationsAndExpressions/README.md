@@ -37,7 +37,6 @@ print(x + y)  # Addition
 print(x - y)  # Subtraction
 print(x * y)  # Multiplication
 print(x / y)  # Division
-print(x // y) # Floor Division
 print(x % y)  # Modulus
 print(x ** y) # Exponentiation
 ```
@@ -88,33 +87,6 @@ y = False
 print(x and y)  # False
 print(x or y)   # True
 print(not x)    # False
-```
-
----
-
-## Bitwise Operators
-
-Bitwise operators perform operations on binary representations of numbers.
-
-| Operator | Description | Example  | Output |
-| -------- | ----------- | -------- | ------ | --- | --- |
-| `&`      | AND         | `5 & 3`  | `1`    |
-| `        | `           | OR       | `5     | 3`  | `7` |
-| `^`      | XOR         | `5 ^ 3`  | `6`    |
-| `~`      | NOT         | `~5`     | `-6`   |
-| `<<`     | Left Shift  | `5 << 1` | `10`   |
-| `>>`     | Right Shift | `5 >> 1` | `2`    |
-
-```python
-# Example
-x = 5  # 101 in binary
-y = 3  # 011 in binary
-print(x & y)  # AND -> 001 -> 1
-print(x | y)  # OR  -> 111 -> 7
-print(x ^ y)  # XOR -> 110 -> 6
-print(~x)     # NOT -> -6
-print(x << 1) # Left Shift -> 10
-print(x >> 1) # Right Shift -> 2
 ```
 
 ---
